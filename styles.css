@@ -15,6 +15,11 @@ body{
 
 header{
 
+border: solid 4px black;
+background-image: url("nubes.jpg");
+background-color: #ece013;
+margin-bottom: 20px;
+box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);;
 
 }
 
@@ -30,6 +35,8 @@ img{
   margin-right: auto;
   width: 50%;
   border-radius: 50px;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);;
+
 }
 
 
@@ -43,6 +50,7 @@ img{
     text-align: center;
     border-radius: 50px;
     padding: 20px ;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);;
 
 }
 
@@ -53,6 +61,8 @@ img{
     background-color:#ffd90f;
     border-radius: 50px;
     padding: 10px ;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);;
+    
 }
 
 .home{
@@ -60,7 +70,7 @@ img{
     list-style-type: none;
     background-color: #ece013;
     border-radius: 50px;
-    text-decoration-line: none;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);;
 }
 
 
@@ -86,3 +96,7 @@ audio{
     border-radius: 50px;
 }
 
+
+a{
+    text-decoration: none;
+}
