@@ -77,3 +77,12 @@ footer{
     font-size: small;
 }
 
+.sonido{
+    display: flex;
+    justify-content: center;
+}
+
+audio{
+    border-radius: 50px;
+}
+
